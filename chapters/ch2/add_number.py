@@ -22,6 +22,8 @@ def is_positive(num):
 
 
 def challenge_1():
+    convert_to_number(0)
+
     input_1 = input('Enter a number: ')
     num_1 = convert_to_number(input_1)
     if not num_1:
